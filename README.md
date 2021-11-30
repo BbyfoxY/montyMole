@@ -1,2 +1,0 @@
-# montyMole
-Created with CodeSandbox
