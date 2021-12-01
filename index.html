@@ -29,6 +29,7 @@
           font-family: cursive;
           margin-left: 175px;
           margin-right: 175px;
+          z-index: 1;
         }
 
         #mainPage h1 {
@@ -45,7 +46,7 @@
           margin-left: 10px;
           margin-top: 20px;
           position: fixed;
-          z-index: 1;
+          z-index: 2;
           top: 0;
           left: 0;
           overflow-x: hidden;
@@ -180,15 +181,28 @@
         <img src = "src/montyFlag.jpg" width = "250"></img><br></br>
         <h6>Page Last Updated On 11.29.21<br></br>Coded Entirely By Yours Truly Using HTML5, JS, And CSS<br></br>I Plan To Pursue Coding As A Career In The Future<br></br>Bye Montys!</h6>
       </div>
+      <div id = "ignoreThis">
+        <img src = "src/mainMonty.png" id = "srcM"></img>
+        <img src = "src/montyDance.jpeg" id = "srcD"></img>
+        <img src = "src/montyEyes.jpg" id = "srcE"></img>
+        <img src = "src/montyMoleGlasses.png" id = "srcG"></img>
+        <img src = "src/montyShrine.jpeg" id = "srcS"></img>
+      </div>
 
       <script>
         //variables
+        let srcM = document.getElementById("srcM");
+        let srcD = document.getElementById("srcD");
+        let srcE = document.getElementById("srcE");
+        let srcG = document.getElementById("srcG");
+        let srcS = document.getElementById("srcS");
+        
         var montyImage = [
-          "mainMonty.403873a7.png",
-          "montyDance.bbf39b12.jpeg",
-          "montyEyes.2634cb1e.jpg",
-          "montyMoleGlasses.73a86cfc.png",
-          "src/montyShrine.jpeg"
+          srcM,
+          srcD,
+          srcE,
+          srcG,
+          srcS
         ];
         //functions
         function montyCreate() {
