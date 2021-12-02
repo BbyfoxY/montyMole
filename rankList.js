@@ -1,4 +1,4 @@
-/* SECRET MEMBER LIST
+/* RANK LIST
         WE F. | RANK: GARDENER
         AL L. | RANK: S1
         ST D. | RANK: S10
@@ -14,4 +14,15 @@
         MA H. | RANK: A1
         PH D. | RANK: S5
         GA B. | RANK: B7
+*/
+/* NEW RANKS
+Monty
+Hole Digger
+The Whacked
+Moles
+Luxury Moles
+F to S in Each
+F to FF to FFF to D to DD to DDD.......
+50 Spots in Each
+4500 Ranks Total
 */
