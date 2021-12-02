@@ -178,7 +178,29 @@
         <img src = "src/montyShrine.jpeg" id = "srcS"></img>
       </div>
 
-      <script src = "index.js">
+      <script>
+        //variables
+        var montyImage = [
+          srcM,
+          srcD,
+          srcE,
+          srcG,
+          srcS
+        ];
+        
+        montyImage.srcM = document.getElementById("srcM");
+        montyImage.srcD = document.getElementById("srcD");
+        montyImage.srcE = document.getElementById("srcE");
+        montyImage.srcG = document.getElementById("srcG");
+        montyImage.srcS = document.getElementById("srcS");
+        //functions
+        function montyCreate() {
+          var montyCreation = document.createElement("img");
+          montyCreation.src = montyImage[Math.floor(Math.random() * 4)];
+          montyCreation.width = "50";
+          montyCreation.length = "50";
+          document.getElementById("montyCreationBody").appendChild(montyCreation);
+        }
       </script>
     </body>
   </html>
