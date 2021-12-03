@@ -89,7 +89,7 @@
       <div id = "mainPage">
         <div id = "montyCreationBody">
           <h1>Monty Mole</h1><br></br>
-          <h2>Go to Github page on sidebar!!!</h2>
+          <h2>All members are required to make a Github account and then comment on one of my discussions on the montyMole repository. (DO NOT MAKE IT WITH YOUR SCHOOL EMAIL) If you are unable to make it for some reason, please give me that reason. If I am given no reason, you will be removed.</h2><br></br>
           <h2>Discord Server Code: 7ekFTdng(expires soon)</h2><br></br>
           <img id = "mainMonty" src = "src/mainMonty.png" width = "500">
           <br></br>
@@ -117,7 +117,6 @@
           <h3>A: Visit all of the links posted above, and do your own research.</h3>
           <h2>Q: Is this a cult?</h2>
           <h3>A: This is a loving community for Monty Mole. You can call it whatever you want.</h3><br></br>
-          <h1>If you have more questions that you want answered; please enter them in this <a target = "_blank" href = "https://docs.google.com/document/d/1wvfr3MHZ4y7LXCPYnDi8GuMhI0ktzO4ONE5Eqqj_cmI/edit?usp=sharing">Google Doc</a></h1>
         </div>
         <br></br>
         <h1>Ranks are now listed inside of a javascript file on the Github page titled "rankList"</h1>
@@ -135,18 +134,12 @@
       <script>
         //variables
         var montyImage = [
-          srcM,
-          srcD,
-          srcE,
-          srcG,
-          srcS
+          srcM = document.getElementById("srcM"),
+          srcD = document.getElementById("srcD"),
+          srcE = document.getElementById("srcE"),
+          srcG = document.getElementById("srcG"),
+          srcS = document.getElementById("srcS")
         ];
-        
-        montyImage.srcM = document.getElementById("srcM");
-        montyImage.srcD = document.getElementById("srcD");
-        montyImage.srcE = document.getElementById("srcE");
-        montyImage.srcG = document.getElementById("srcG");
-        montyImage.srcS = document.getElementById("srcS");
         //functions
         function montyCreate() {
           var montyCreation = document.createElement("img");
