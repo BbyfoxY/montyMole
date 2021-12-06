@@ -1,20 +1,23 @@
-/* RANK LIST
-        WE F. | RANK: GARDENER
-        AL L. | RANK: S1
-        ST D. | RANK: S10
-        JA S. | RANK: B4
-        PA D. | RANK: B1
-        HE S. | RANK: A9
-        AL F. | RANK: B2
-        NA S. | RANK: C2
-        JO K. | RANK: S6
-        AV J. | RANK: S8
-        CO F. | RANK: S7
-        EM H. | RANK: A4
-        MA H. | RANK: A1
-        PH D. | RANK: S5 VERIFIED
-        GA B. | RANK: B7
+/* NEW RANK LIST
+WE F. || G DEVELOPER VERIFIED
+AL L. || AAA20 DEVELOPER
+PH D. || AA16 DEVELOPER VERIFIED
+CO F. || AA47 VERIFIED
+JO K. || A36 DEVELOPER
+AV J. || A49
+ST D. || BBB5 DEVELOPER
+MA H. || BBB36 DEVELOPER
+EM H. || BB18 EXEMPT
+HE S. || BB20
+PA D. || B6 VERIFIED
+AL F. || B38
+JA S. || CCC40 EXEMPT
+GA B. || CCC50 EXEMPT
+NA S. || CC16
 */
+
+
+
 /* NEW RANKS
 Monty
 Hole Digger
