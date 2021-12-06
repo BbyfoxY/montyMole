@@ -12,7 +12,7 @@
         CO F. | RANK: S7
         EM H. | RANK: A4
         MA H. | RANK: A1
-        PH D. | RANK: S5
+        PH D. | RANK: S5 VERIFIED
         GA B. | RANK: B7
 */
 /* NEW RANKS
